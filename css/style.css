@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+*,
+*::before,
+*::after {
+margin: 0;
+padding: 0;
+border: 0;
+box-sizing: border-box;
+}
+
+.about{
+    margin: 90px 196px;
+    border-radius: 40px;
+    width: 1020px;
+    height: 700px;
+    background-color: #5D62B5;
+}
+
+.wwa{
+    z-index: 1;
+    height: 17px;
+    padding: 100px 0px 34px 87px;
+   
+}
+.logo {
+    display: inline-block;
+}
+.wwa_text{
+    font-family: Roboto;
+    letter-spacing: 2.5px;
+    font-size: 12px;
+    color: white;
+    display: inline-block;
+    padding-left: 16px;
+    align-items: center;
+}
+.head_text{
+    width: 583px;
+    margin: 34px 87px;
+    font-family: Roboto; 
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    color: white;
+}
+.main_text{
+    z-index: 1;
+    line-height: 24px;
+    padding: 0px 87px;
+    width: 846px;
+    font-size: 16px;
+    letter-spacing: 0.15px;
+    font-family: Roboto; 
+    color: white;
+}
+.blob{
+    z-index: 0;
+    display: inline-block;
+    transform: translate(0px, -610px);
+    overflow: hidden;
+}
+.dog{
+    z-index: 3;
+    width: 846px;
+    margin-top: 54px ;
+    display: inline-block;
+    position : relative;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+.style{
+    z-index: 3;
+    display: inline-block;
+    transform: translate(228px, -1266px);
+}
